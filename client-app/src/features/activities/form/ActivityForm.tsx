@@ -1,5 +1,5 @@
-import React, {useEffect, useState } from "react";
-import { Button, Header, Label, Segment } from "semantic-ui-react";
+import {useEffect, useState } from "react";
+import { Button, Header, Segment } from "semantic-ui-react";
 import { useStore } from "../../../app/stores/store";
 import { observer } from "mobx-react-lite";
 import { Link, useNavigate, useParams } from "react-router-dom";
